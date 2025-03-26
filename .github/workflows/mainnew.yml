@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: cache
+      - name: Cache
         uses: actions/cache@v3.0.8
         with:
           path: ~/.npm
